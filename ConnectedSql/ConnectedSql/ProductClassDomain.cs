@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConnectedSql
 {
-    internal class ProductClassDomain
+    internal class ProductDomainModel
     {
         public int ProductId { get; set; }
 
@@ -25,6 +25,9 @@ namespace ConnectedSql
         public int CategoryId { get; set; }
 
         public int SupplierId { get; set; }
+
+        public string? ProductImage { get; set; }
+
 
 
 

@@ -1,0 +1,50 @@
+{"ProductId":1,"ProductName":"Sonic Screwdriver","ProductPrice":149.9900,"ProductDescription":"Multifunctional tool for Doctors.","UnitsInStock":0,"UnitsOnOrder":0,"IsDiscontinued":true,"CategoryId":1,"SupplierId":1,"ProductImage":"24dcde58-3f4f-484f-8689-e9af85f040ad.jpg"}
+
+{"ProductId":2,"ProductName":"Lightsaber","ProductPrice":275.0000,"ProductDescription":"Luminescent blade of magnetically contained plasma.","UnitsInStock":20,"UnitsOnOrder":0,"IsDiscontinued":false,"CategoryId":2,"SupplierId":2,"ProductImage":"5a03df8f-56f3-49a0-a146-dd7e1a5c31ff.jpg"}
+
+{"ProductId":3,"ProductName":"Holodeck","ProductPrice":3000.0000,"ProductDescription":"Staging environment where users can participate in virtual reality.","UnitsInStock":3,"UnitsOnOrder":10,"IsDiscontinued":false,"CategoryId":3,"SupplierId":3,"ProductImage":"568f0bd0-0a86-4d31-afc2-177404d9d5e4.jpeg"}
+
+{"ProductId":4,"ProductName":"Medical Tricorder","ProductPrice":225.0000,"ProductDescription":"Sefl-diagnosing medical device.","UnitsInStock":0,"UnitsOnOrder":400,"IsDiscontinued":false,"CategoryId":1,"SupplierId":3,"ProductImage":"925eb0bd-f76f-4370-a0e0-532c9ffe6142.jpg"}
+
+{"ProductId":5,"ProductName":"Horcrux","ProductPrice":500.0000,"ProductDescription":"Used to store part of a person\u0027s soul.","UnitsInStock":1,"UnitsOnOrder":3,"IsDiscontinued":false,"CategoryId":1,"SupplierId":4,"ProductImage":"cb29386d-a10f-448b-80cc-cc1dc7bd2289.jpg"}
+
+{"ProductId":6,"ProductName":"Snitch","ProductPrice":75.0000,"ProductDescription":"A flying golden ball used for Quidditch.","UnitsInStock":10,"UnitsOnOrder":25,"IsDiscontinued":false,"CategoryId":3,"SupplierId":4,"ProductImage":"9934fee2-0dec-4a6f-a604-e97c8132978d.jpg"}
+
+{"ProductId":7,"ProductName":"Death Star","ProductPrice":999999.9900,"ProductDescription":"Giant space station with a super laser.","UnitsInStock":0,"UnitsOnOrder":1,"IsDiscontinued":false,"CategoryId":2,"SupplierId":2,"ProductImage":"b40f77b6-fc4c-4395-aac4-81ca632b37d2.jpeg"}
+
+{"ProductId":8,"ProductName":"Mjolnir","ProductPrice":10000.0000,"ProductDescription":"A hammer for those who are worthy.","UnitsInStock":1,"UnitsOnOrder":0,"IsDiscontinued":true,"CategoryId":2,"SupplierId":5,"ProductImage":"2221701c-c2cf-411e-a74f-7fb955804ea4.jpg"}
+
+{"ProductId":9,"ProductName":"Vibranium Shield","ProductPrice":75000.0000,"ProductDescription":"Disc-shaped with 5-pointed star design, composed of vibranium, a steel alloy, and an unknown 3rd catalyst.  The only one of it\u0027s kind!","UnitsInStock":5,"UnitsOnOrder":3,"IsDiscontinued":false,"CategoryId":2,"SupplierId":5,"ProductImage":"a5c3b906-8dca-41ce-b9d3-bfd80463e286.jpg"}
+
+{"ProductId":10,"ProductName":"Ultimate Nullifier","ProductPrice":500000.0000,"ProductDescription":"The universe\u0027s most devastating weapon.","UnitsInStock":2,"UnitsOnOrder":10,"IsDiscontinued":false,"CategoryId":2,"SupplierId":5,"ProductImage":"9d64403e-50d3-4cc0-b649-604467e20487.jpg"}
+
+{"ProductId":11,"ProductName":"Dice","ProductPrice":60000.0000,"ProductDescription":"Aurodium-plated gold dice - slightly used.","UnitsInStock":10,"UnitsOnOrder":0,"IsDiscontinued":false,"CategoryId":3,"SupplierId":2,"ProductImage":"cce493ad-8325-490c-86d0-fda7261fad1b.jpg"}
+
+{"ProductId":12,"ProductName":"Smuggler\u0027s Guide","ProductPrice":50.0000,"ProductDescription":"Reference book, co-authored by many renowned individuals and groups.","UnitsInStock":50,"UnitsOnOrder":20,"IsDiscontinued":false,"CategoryId":1,"SupplierId":2,"ProductImage":"efe50a82-12fa-4bcb-b990-603ccc8165e4.jpg"}
+
+{"ProductId":13,"ProductName":"Crown Jewels of Alderaan","ProductPrice":150.0000,"ProductDescription":"Last surviving treasure from Alderaan.  Previously owned by the House of Organa.","UnitsInStock":10,"UnitsOnOrder":5,"IsDiscontinued":false,"CategoryId":3,"SupplierId":2,"ProductImage":"bad25bb8-8143-455b-8ec9-5c2b0bcada72.jpg"}
+
+{"ProductId":14,"ProductName":"Dream Rock","ProductPrice":88.3900,"ProductDescription":"Contains the essence of Dal-Rin, great for use in the Forbidden Ritual.  ","UnitsInStock":12,"UnitsOnOrder":3,"IsDiscontinued":false,"CategoryId":1,"SupplierId":2,"ProductImage":"db8610e4-32dd-414a-88b6-1376ec962a8f.jpg"}
+
+{"ProductId":15,"ProductName":"Death Star Plans","ProductPrice":51999.0000,"ProductDescription":"Blueprints from the first Death Star.","UnitsInStock":1,"UnitsOnOrder":0,"IsDiscontinued":true,"CategoryId":1,"SupplierId":2,"ProductImage":"eaa9632b-752d-44db-9d3d-d33260838e28.jpg"}
+
+{"ProductId":16,"ProductName":"Eye of Harmony","ProductPrice":750.0000,"ProductDescription":"Artificially created black hole.  Can be used as a power source for time travel.","UnitsInStock":11,"UnitsOnOrder":7,"IsDiscontinued":false,"CategoryId":1,"SupplierId":1,"ProductImage":"a9e240e0-5ca9-4da5-831c-8998e0433e8a.jpg"}
+
+{"ProductId":17,"ProductName":"Key to Time","ProductPrice":999.9900,"ProductDescription":"The most powerful artifact in the Who-niverse - capable of anything the user can imagine.","UnitsInStock":3,"UnitsOnOrder":0,"IsDiscontinued":false,"CategoryId":1,"SupplierId":1,"ProductImage":"bb1dbccf-3016-434e-8677-8a0956b22d33.png"}
+
+{"ProductId":18,"ProductName":"Tardis","ProductPrice":55299.0000,"ProductDescription":"Time and relative dimension in space - a spaceship invented by the Time Lords.","UnitsInStock":2,"UnitsOnOrder":3,"IsDiscontinued":false,"CategoryId":1,"SupplierId":1,"ProductImage":"8b6a5c8b-92b2-4be7-be34-019a6e794cab.jpg"}
+
+{"ProductId":19,"ProductName":"Beacon of Kahless","ProductPrice":800.0000,"ProductDescription":"Artifact that, when activated by the Torchbearer, unites the great houses of the Klingon Empire.","UnitsInStock":25,"UnitsOnOrder":10,"IsDiscontinued":false,"CategoryId":1,"SupplierId":3,"ProductImage":"b2accf8a-50f2-4a55-aa55-64dfd5fb67bd.jpg"}
+
+{"ProductId":20,"ProductName":"Psionic Resonator","ProductPrice":555.9900,"ProductDescription":"Turns mental energy into kinetic energy.","UnitsInStock":6,"UnitsOnOrder":4,"IsDiscontinued":false,"CategoryId":2,"SupplierId":3,"ProductImage":"ddc068be-d198-4cb0-b16d-87eb333b672a.jpg"}
+
+{"ProductId":21,"ProductName":"Borg Cube","ProductPrice":5.0000,"ProductDescription":"Starship used by the Borg Collective.","UnitsInStock":5,"UnitsOnOrder":0,"IsDiscontinued":false,"CategoryId":1,"SupplierId":3,"ProductImage":"251bde84-0b75-49ba-8667-c54fac03b6b7.jpg"}
+
+{"ProductId":22,"ProductName":"Walkman","ProductPrice":579.9900,"ProductDescription":"Sony TPS-L2 Walkman Headset formerly owned by Peter Quill.","UnitsInStock":10,"UnitsOnOrder":5,"IsDiscontinued":false,"CategoryId":3,"SupplierId":5,"ProductImage":"5ee22811-8d37-47bb-9e22-5af21c2a0de3.jpg"}
+
+{"ProductId":23,"ProductName":"Boombox","ProductPrice":29.9900,"ProductDescription":"A portable, electro magnetic pulse generator.","UnitsInStock":55,"UnitsOnOrder":0,"IsDiscontinued":false,"CategoryId":3,"SupplierId":5,"ProductImage":"8d968a37-d882-4b00-9f9a-d8a146025b98.jpg"}
+
+{"ProductId":24,"ProductName":"Stormbreaker","ProductPrice":3499.0000,"ProductDescription":"Made of mystic Uru metal and is nearly indestructible.","UnitsInStock":10,"UnitsOnOrder":5,"IsDiscontinued":false,"CategoryId":2,"SupplierId":5,"ProductImage":"d6772379-c0f6-493a-8375-8ee85ee6827a.jpg"}
+
+{"ProductId":25,"ProductName":"gimme","ProductPrice":22.0000,"ProductDescription":"more","UnitsInStock":23,"UnitsOnOrder":2,"IsDiscontinued":true,"CategoryId":2,"SupplierId":0,"ProductImage":"N/A"}
+

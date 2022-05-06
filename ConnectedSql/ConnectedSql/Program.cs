@@ -277,78 +277,130 @@ namespace ConnectedSq1
 
 
 
-
+            #region Block 4
 
             #region Retrieve Cats with DomainModels
+            Console.WriteLine("\n\n*** Example of retrieving all Categories from the DB with Domain Models.***" +
+                "\n\n**************************\n");
+
+            DAL dal = new();
+            List<CategoryDomainModel> categories = dal.GetCats();
+
+            foreach (var category in categories)
+            {
+                Console.WriteLine($"{category.CategoryId}) {category.CategoryName}\n- {category.CategoryDescription}\n");
+            }
+
+            Console.WriteLine("*** Retrive Category by ID (1)***");
+            CategoryDomainModel YUP = dal.GetCatById(1);
+            Console.WriteLine($"{YUP.CategoryId}) {YUP.CategoryName}\n- {YUP.CategoryDescription}");
+            #endregion
+            Console.Write("\n\nPress any key to continue...\n");
+            Console.ReadKey(true);
+            Console.Clear();
 
 
-            //cs = cs.Replace("NorthWind", "GadgetStore");
-            //conn.ConnectionString = cs;
-            //conn.Open();
+            #region Retrieve Products with DomainModels - LAB
 
-            //cmd = new SqlCommand("SELECT CategoryId, CategoryName, CategoryDescription From Categories", conn);
-
-            ////cmd.CommandText = "Query"
-
-            //rdr = cmd.ExecuteReader();'
-            //DAL dal = new DAL();
-            //  List<CategoryDomainModel> categories = dal.GetCats();
-
-            //Loop through the reader
-            //while (rdr.Read())
-            //{
-
-            //    //we will create a CategoryDomainModel for every object in the categories table
-            // CategoryDomainModel cat2 = new CategoryDomainModel()
-            //    {
-            // CategoryId = (int)rdr["CategoryId"],
-            //CategoryId. CategoryName = (string)rdr["Name"],
-            //CategoryDescription = (string)rdr["Description"] is DBNull ? "N/A" : (string)rdr["Description"]
-
-
-            //   };
-            //    categories.Add(cat2);
-            //}
-            //rdr.Close();
-            //conn.Close();
-
-            // foreach (var category in categories)
-            //{
-            //    Console.WriteLine($"{category.CategoryName}\n- {category.CategoryDescription}");
-            //}
-            // #endregion
-
-
-            // Create a new class called ProductDomainModel
-
+            //Create a new class called ProductDomainModel
             //Make a property for each column in the table from SSMS
 
             //show all productname and price
+            Console.WriteLine("*** Products from Gadget Store ***\n");
 
+            List<ProductDomainModel> products = dal.GetProducts();
+
+            products.ForEach(x => Console.WriteLine($"{x.ProductId}) {x.ProductName} - {x.ProductPrice:c}"));
             //retrieve and display ONE product/price by ID
+            Console.Write("\n\nPress any key to continue...\n");
+            Console.ReadKey(true);
+            Console.Clear();
+            Console.WriteLine("GetProdById - ProductId = 1");
+
+            ProductDomainModel prod = dal.GetProdById(1);
+            Console.WriteLine($"Product ID {prod.ProductId}");
+            Console.WriteLine($"{prod.ProductName} - {prod.ProductPrice:c}");
+            #endregion
+            Console.Write("\n\nPress any key to continue...\n");
+            Console.ReadKey(true);
+            Console.Clear();
+
+            #region Show a list of products broken out by category
+            Console.WriteLine("List of all Products grouped by Category\n-----------------------------------");
+
+            foreach (var c in categories)
+            {
+                Console.WriteLine($"{c.CategoryId}) {c.CategoryName} - {c.CategoryDescription}" +
+                    $"\n-----------------------------------");
+                foreach (var p in products.Where(x => x.CategoryId == c.CategoryId))
+                {
+                    Console.WriteLine($"\t{p.ProductName} - {p.ProductPrice:c}");
+                }
+                Console.WriteLine($"\n-----------------------------------");
+            }//end outer foreach
+            #endregion
+            Console.Write("\n\nPress any key to continue...\n");
+            Console.ReadKey(true);
+            Console.Clear();
+
+            #region JSON
+
+            Console.WriteLine("JSON Product results\n-----------------------------------\n");
+
+            Console.WriteLine(dal.GetJsonProducts());
+            #endregion
 
             #endregion
 
-            DAL dal2 = new DAL();
-            List<ProductClassDomain> products = dal2.GetProducts();
 
-            foreach (var product in products)
+            #region Block 5
+
+
+            // Console.ReadKey(true);
+            // Console.Clear();
+            //dal.CreateCategory();
+
+
+            // Console.ReadKey(true);
+            // Console.Clear();
+            // dal.EditCategory();
+
+
+
+            // Console.ReadKey(true);
+            // Console.Clear();
+            // dal.DeleteCategory();
+
+
+            // Console.ReadKey(true);
+            // Console.Clear();
+            // dal.CreateProduct();
+
+
+            Console.ReadKey(true);
+            Console.Clear();
+            dal.DeleteProduct();
+
+
+
+
+
+
+
+
+
+
+
+
+
+            foreach (ProductDomainModel c in dal.GetProducts())
             {
-                Console.WriteLine($"{product.ProductName}");
+                Console.WriteLine($"Id:{c.ProductId}\n" +
+                    $"Name: {c.ProductName} - {c.ProductDescription} - {c.ProductPrice} - {c.UnitsInStock} - {c.UnitsOnOrder} - {c.IsDiscontinued}\n\n");
             }
 
 
 
-            Console.WriteLine("\n\nPress any key to continue....\n");
-            Console.ReadKey(true);
-            Console.WriteLine("************************");
-
-
-
-
-
-
-            Console.WriteLine(dal2.GetJsonProducts());
 
 
 
@@ -356,6 +408,12 @@ namespace ConnectedSq1
 
 
 
+            #endregion
+                foreach (CategoryDomainModel c in dal.GetCats())
+            {
+                Console.WriteLine($"Id:{c.CategoryId}\n" +
+                    $"Name: {c.CategoryName} - {c.CategoryDescription}\n\n");
+            }
 
 
 
